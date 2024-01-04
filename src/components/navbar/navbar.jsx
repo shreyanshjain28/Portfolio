@@ -1,28 +1,39 @@
-import React from "react"
+import React, { useState } from "react"
 import './navbar.css'
 import {Link} from 'react-scroll';
 
 
 const Navbar = () => {
     
+    const [showMenu, setShowMenu] = useState(false)
     return ( 
+
     
             <nav className="navbar">
                 <img className="MainLogo" src="./assets/logo.png" alt="Logo" />
-                <div className="desktopMenu">
-                    <Link className="DekstopMenuListItem">Home</Link>
-                    <Link className="DekstopMenuListItem">About</Link>
-                    <Link className="DekstopMenuListItem">Projects</Link>
-                    <Link className="DekstopMenuListItem">Blogs</Link>
-
-
+                <div className="desktopMenu"  > 
+                    <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="DekstopMenuListItem"  >Home</Link>
+                    <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" onClick={()=> setShowMenu(false)} >About</Link>
+                    <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" onClick={()=> setShowMenu(false)} >Connect</Link>
                 </div>
 
-                <button className="contactButton">
+                <button className="contactButton" onClick={() =>{
 
-                    <img src="./assets/contact.png" alt="" className="contactLogo" />
+                    document.getElementById('contactPage').scrollIntoView({behavior:'smooth'});
+
+                } }>
+
+                    <img src="./assets/contact.png" alt="shreyansh" className="contactLogo" />
                     Contact Me   
                 </button>
+
+                <img className="mobMenuLogo" src="./assets/menu.png" alt="Logo" onClick={()=> setShowMenu(!showMenu)} />
+                <div className="navMenu" style={{display:showMenu? 'flex' : 'none'}}>
+
+                    <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Home</Link>
+                    <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >About</Link>
+                    <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-50} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Connect</Link>
+                </div>
 
 
             </nav>
