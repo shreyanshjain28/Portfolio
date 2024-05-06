@@ -9,15 +9,16 @@ const Skills = () =>{
         <section id='skills'>
 
             <span className="skillTitle">What I do</span>
-            <span className="skillDesc">i am skilled and passonate Mern stack,web developer with some projects,Ihave been coding since last 4 years. I am profeccient with javascript, python</span>
+            <span className="skillDesc">I am a innovative Full stack Developer with a passion for crafting dynamic software solutions. Proficient in JavaScript/TypeScript, Python, Node.js and related
+frameworks</span>
 
             <div className="skillBars">
                 
                 <div className="skillBar">
                     <img src="./assets/web.jpg" alt="web" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Web Developer</h2>
-                        <p>I develop website for business and personal uses.</p>
+                        <h2>Full Stack Developer</h2>
+                        <p>I develop website and applications  for business and personal uses.</p>
                     </div>
                 </div>
 

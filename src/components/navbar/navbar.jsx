@@ -13,8 +13,8 @@ const Navbar = () => {
                 <img className="MainLogo" src="./assets/logo.png" alt="Logo" />
                 <div className="desktopMenu"  > 
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="DekstopMenuListItem"  >Home</Link>
-                    <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" onClick={()=> setShowMenu(false)} >About</Link>
-                    <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" onClick={()=> setShowMenu(false)} >Connect</Link>
+                    <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" >About</Link>
+                    <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" >Connect</Link>
                 </div>
 
                 <button className="contactButton" onClick={() =>{

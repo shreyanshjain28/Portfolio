@@ -36,8 +36,8 @@ const Contact = ()=>{
                     <button type="submit" className="submitBtn" value="send">Submit</button>
 
                     <div className="links">
-                        <img src="./assets/linkedin.png" alt="linkedin" className="link" />
-                        <img src="./assets/github.png" alt="GitHub" className="link" />
+                        <a href="https://www.linkedin.com/in/shreyansh-jain-86a005251/"><img src="./assets/linkedin.png" alt="linkedin" className="link" /></a>
+                        <a href="https://github.com/shreyanshjain28"><img src="./assets/github.png" alt="GitHub" className="link" /> </a>
                         <img src="./assets/x.jpg" alt="X" className="link" />
                         <img src="./assets/youtube.png" alt="Youtube" className="link" />
                     </div>
