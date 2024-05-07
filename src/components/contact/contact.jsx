@@ -2,7 +2,7 @@ import React from "react";
 import './contact.css';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Service_id, Template_id, Public_key } from "../../config";
+// import { Service_id, Template_id, Public_key } from "../../config";
 import linkedin from '../../assets/linkedin.png';
 import github from '../../assets/github.png';
 
