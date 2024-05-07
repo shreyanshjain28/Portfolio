@@ -63,18 +63,20 @@
 .links{
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
 .link{
-    object-fit: cover;
+    
     height: 4rem;
     width: 4rem;
-    margin: 0 0.75rem 5rem 0.75rem;    /*active highlight not working for contact*/
+    margin: 0.5rem; /*active highlight not working for contact*/
     border-radius: 90px;
-    border:none;
-
+    border: 2px solid white;
 }
+
 
 
 

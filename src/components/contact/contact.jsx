@@ -28,18 +28,20 @@ const Contact = ()=>{
                 <span className="contactDesc"> Please fill out this form to connect</span>
 
                 <form className="contactForm" ref={form} onSubmit={sendEmail}> 
-                    <input type="text" className="name" placeholder='Your name'  name='from_name'/>     
-                    <input type="text" className="email" placeholder='Your email' name='your_email' />
+                    <input type="text" className="name" placeholder='Your name'  name='from_name' required/>     
+                    <input type="text" className="email" placeholder='Your email' name='your_email' required/>
 
-                    <textarea className="message" name='message' rows="5" placeholder="enter your message"></textarea>
+                    <textarea className="message" name='message' rows="5" placeholder="enter your message" required></textarea>
                     
                     <button type="submit" className="submitBtn" value="send">Submit</button>
 
                     <div className="links">
-                        <a href="https://www.linkedin.com/in/shreyansh-jain-86a005251/"><img src="./assets/linkedin.png" alt="linkedin" className="link" /></a>
-                        <a href="https://github.com/shreyanshjain28"><img src="./assets/github.png" alt="GitHub" className="link" /> </a>
-                        <img src="./assets/x.jpg" alt="X" className="link" />
-                        <img src="./assets/youtube.png" alt="Youtube" className="link" />
+                        <div><h3 className="headingConnect"> Let's connect | </h3></div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/shreyansh-jain-86a005251/"><img src="./assets/linkedin.png" alt="linkedin" className="link" /></a>
+                            <a href="https://github.com/shreyanshjain28"><img src="./assets/github.png" alt="GitHub" className="link" /> </a>
+                        </div>
+                       
                     </div>
 
                 </form>

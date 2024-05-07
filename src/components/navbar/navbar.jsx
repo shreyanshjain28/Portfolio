@@ -14,7 +14,8 @@ const Navbar = () => {
                 <div className="desktopMenu"  > 
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="DekstopMenuListItem"  >Home</Link>
                     <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" >About</Link>
-                    <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" >Connect</Link>
+                    <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" >Works</Link>
+                    <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-100} duration={500} className="DekstopMenuListItem" >Connect</Link>
                 </div>
 
                 <button className="contactButton" onClick={() =>{
@@ -23,7 +24,7 @@ const Navbar = () => {
 
                 } }>
 
-                    <img src="./assets/contact.png" alt="shreyansh" className="contactLogo" />
+                    <img src="./assets/contact.png" alt="ContactMe" className="contactLogo" />
                     Contact Me   
                 </button>
 
@@ -32,6 +33,7 @@ const Navbar = () => {
 
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Home</Link>
                     <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >About</Link>
+                    <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Works</Link>
                     <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-50} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Connect</Link>
                 </div>
 

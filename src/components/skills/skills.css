@@ -26,6 +26,7 @@
     font-weight: 300;
     max-width: 50rem;
     padding: 0 2rem;
+    text-align: justify;
     
 }
 
@@ -40,6 +41,7 @@
 .skillBar{
 
     display: flex;
+    align-items: center;
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
