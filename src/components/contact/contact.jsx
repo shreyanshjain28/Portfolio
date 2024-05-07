@@ -2,11 +2,15 @@ import React from "react";
 import './contact.css';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Service_id, Template_id, Public_key } from "../../config";
+// import { Service_id, Template_id, Public_key } from "../../config";
 import linkedin from '../../assets/linkedin.png';
 import github from '../../assets/github.png';
 
 const Contact = ()=>{
+
+    const Service_id = 'service_l3z7ygg';
+    const Template_id = 'template_9131asx';
+    const Public_key='OSejaB6IgwDiCzgt0';
 
     const form = useRef(); 
     
