@@ -4,11 +4,15 @@ import {Link} from 'react-scroll';
 
 const Intro = ()=>{
 
-    const hiresection = () =>{
-
-        document.getElementById('contactPage').scrollIntoView({behavior:'smooth'});
-
-    } 
+    const download = () => {
+        const pdfUrl = "./assets/shreyansh_jain_resume.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "resume.pdf"; 
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
 
     return(
 
@@ -19,10 +23,18 @@ const Intro = ()=>{
                 <p className="introPara">Ready to embark on a journey of innovation and creativity in the world of web development. With a profound love for both front-end and back-end technologies, I'm committed to delivering seamless and user-centric digital solutions.</p>
                 <p className="introPara">Take a moment and explore more ..</p>
                 <Link>
-                <button className="hireButton" onClick={() =>{document.getElementById('contactPage').scrollIntoView({behavior:'smooth'});} }>
+                
+                    <button className="hireButton" onClick={download}>
+                    <img src="./assets/hat.png" alt="hire" className="hireLogo" />
+                    Hire Me
+                    </button>
+            
+
+
+                {/* <button className="hireButton" onClick={() =>{document.getElementById('contactPage').scrollIntoView({behavior:'smooth'});} }>
                 <img src="./assets/hat.png" alt="hire" className="hireLogo" />
                 Hire Me
-                </button>
+                </button> */}
                
                 
 
