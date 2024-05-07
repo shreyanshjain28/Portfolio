@@ -1,16 +1,16 @@
 import React, { useState } from "react"
 import './navbar.css'
 import {Link} from 'react-scroll';
-
+import logo from '../../assets/logo.png';
+import contact from '../../assets/contact.png';
+import menu from '../../assets/menu.png';
 
 const Navbar = () => {
     
     const [showMenu, setShowMenu] = useState(false)
-    return ( 
-
-    
+    return (     
             <nav className="navbar">
-                <img className="MainLogo" src="./src/assets/logo.png" alt="Logo" />
+                <img className="MainLogo" src={logo} alt="Logo" />
                 <div className="desktopMenu"  > 
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="DekstopMenuListItem"  >Home</Link>
                     <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" >About</Link>
@@ -24,11 +24,11 @@ const Navbar = () => {
 
                 } }>
 
-                    <img src="./src/assets/contact.png" alt="ContactMe" className="contactLogo" />
+                    <img src={contact} alt="ContactMe" className="contactLogo" />
                     Contact Me   
                 </button>
 
-                <img className="mobMenuLogo" src="./src/assets/menu.png" alt="Logo" onClick={()=> setShowMenu(!showMenu)} />
+                <img className="mobMenuLogo" src={menu} alt="Logo" onClick={()=> setShowMenu(!showMenu)} />
                 <div className="navMenu" style={{display:showMenu? 'flex' : 'none'}}>
 
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Home</Link>
@@ -36,12 +36,7 @@ const Navbar = () => {
                     <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Works</Link>
                     <Link activeClass='active' to='contactPage' spy={true} smooth={true} offset={-50} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Connect</Link>
                 </div>
-
-
             </nav>
-    
-    
-    
     )
 
 }

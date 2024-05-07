@@ -3,6 +3,9 @@ import './contact.css';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Service_id, Template_id, Public_key } from "../../config";
+import linkedin from '../../assets/linkedin.png';
+import github from '../../assets/github.png';
+
 const Contact = ()=>{
 
     const form = useRef(); 
@@ -38,8 +41,8 @@ const Contact = ()=>{
                     <div className="links">
                         <div><h3 className="headingConnect"> Let's connect | </h3></div>
                         <div>
-                            <a href="https://www.linkedin.com/in/shreyansh-jain-86a005251/"><img src="./src/assets/linkedin.png" alt="linkedin" className="link" /></a>
-                            <a href="https://github.com/shreyanshjain28"><img src="./src/assets/github.png" alt="GitHub" className="link" /> </a>
+                            <a href="https://www.linkedin.com/in/shreyansh-jain-86a005251/"><img src={linkedin} alt="linkedin" className="link" /></a>
+                            <a href="https://github.com/shreyanshjain28"><img src={github} alt="GitHub" className="link" /> </a>
                         </div>
                        
                     </div>

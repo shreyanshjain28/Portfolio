@@ -1,6 +1,8 @@
 import React from "react";
 import './intro.css';
 import {Link} from 'react-scroll';
+import profile3 from '../../assets/profile3.jpg';
+import hat from '../../assets/hat.png';
 
 const Intro = ()=>{
 
@@ -25,7 +27,7 @@ const Intro = ()=>{
                 <Link>
                 
                     <button className="hireButton" onClick={download}>
-                    <img src="./src/assets/hat.png" alt="hire" className="hireLogo" />
+                    <img src={hat} alt="hire" className="hireLogo" />
                     Hire Me
                     </button>
             
@@ -44,7 +46,7 @@ const Intro = ()=>{
            
 
 
-            <img src="./src/assets/profile3.jpg" alt="profile" className="bg" /> 
+            <img src= {profile3} alt="profile" className="bg" /> 
 
 
 
