@@ -14,7 +14,7 @@ const Skills = () =>{
             <div className="skillBars">
                 
                 <div className="skillBar">
-                    <img src="./assets/web.jpg" alt="web" className="skillBarImg" />
+                    <img src="./src/assets/web.jpg" alt="web" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Full Stack Developer</h2>
                         <p>I develop websites and applications tailored to the client's need. Proficient in MERN stack and other frameworks like Flask and web services.</p>
@@ -22,7 +22,7 @@ const Skills = () =>{
                 </div>
 
                 <div className="skillBar">
-                    <img src="./assets/js2.png" alt="dev" className="skillBarImg" />
+                    <img src="./src/assets/js2.png" alt="dev" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>JavaScript Developer</h2>
                         <p>i write scalable JavaScript programs to solve the complex problems. I have proficiency in it frameworks like React, Node-Express.</p>
@@ -30,7 +30,7 @@ const Skills = () =>{
                 </div>
 
                 <div className="skillBar">
-                    <img src="./assets/py.png" alt="dev" className="skillBarImg" />
+                    <img src="./src/assets/py.png" alt="dev" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Python Developer</h2>
                         <p>I have good experience in python programing, performing data analysis using it's libraries like Pandas/Sci-kit and Matplotlib.</p>
@@ -39,7 +39,7 @@ const Skills = () =>{
 
 
                 <div className="skillBar">
-                    <img src="./assets/db.jpg" alt="dev" className="skillBarImg" />
+                    <img src="./src/assets/db.jpg" alt="dev" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>SQL/NoSQL</h2>
                         <p>I Have been using SQL and NoSql databases like MySQL server, SQLite, CassandraDB to host servers/data.</p>
@@ -48,7 +48,7 @@ const Skills = () =>{
 
                 
                 <div className="skillBar">
-                    <img src="./assets/developer.jpg" alt="dev" className="skillBarImg" />
+                    <img src="./src/assets/developer.jpg" alt="dev" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Tools</h2>
                         <p>Some tools used by me are - MS suite, JIRA , Git/GitHub, SalesForce, Figma, R-studios, VMware. </p>

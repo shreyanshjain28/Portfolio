@@ -38,8 +38,8 @@ const Contact = ()=>{
                     <div className="links">
                         <div><h3 className="headingConnect"> Let's connect | </h3></div>
                         <div>
-                            <a href="https://www.linkedin.com/in/shreyansh-jain-86a005251/"><img src="./assets/linkedin.png" alt="linkedin" className="link" /></a>
-                            <a href="https://github.com/shreyanshjain28"><img src="./assets/github.png" alt="GitHub" className="link" /> </a>
+                            <a href="https://www.linkedin.com/in/shreyansh-jain-86a005251/"><img src="./src/assets/linkedin.png" alt="linkedin" className="link" /></a>
+                            <a href="https://github.com/shreyanshjain28"><img src="./src/assets/github.png" alt="GitHub" className="link" /> </a>
                         </div>
                        
                     </div>

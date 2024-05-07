@@ -10,7 +10,7 @@ const Navbar = () => {
 
     
             <nav className="navbar">
-                <img className="MainLogo" src="./assets/logo.png" alt="Logo" />
+                <img className="MainLogo" src="./src/assets/logo.png" alt="Logo" />
                 <div className="desktopMenu"  > 
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="DekstopMenuListItem"  >Home</Link>
                     <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="DekstopMenuListItem" >About</Link>
@@ -24,11 +24,11 @@ const Navbar = () => {
 
                 } }>
 
-                    <img src="./assets/contact.png" alt="ContactMe" className="contactLogo" />
+                    <img src="./src/assets/contact.png" alt="ContactMe" className="contactLogo" />
                     Contact Me   
                 </button>
 
-                <img className="mobMenuLogo" src="./assets/menu.png" alt="Logo" onClick={()=> setShowMenu(!showMenu)} />
+                <img className="mobMenuLogo" src="./src/assets/menu.png" alt="Logo" onClick={()=> setShowMenu(!showMenu)} />
                 <div className="navMenu" style={{display:showMenu? 'flex' : 'none'}}>
 
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="ListItem" onClick={()=> setShowMenu(false)} >Home</Link>

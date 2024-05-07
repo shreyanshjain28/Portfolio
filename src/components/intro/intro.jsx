@@ -5,7 +5,7 @@ import {Link} from 'react-scroll';
 const Intro = ()=>{
 
     const download = () => {
-        const pdfUrl = "./assets/shreyansh_jain_resume.pdf";
+        const pdfUrl = "./src/assets/shreyansh_jain_resume.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "resume.pdf"; 
@@ -25,14 +25,14 @@ const Intro = ()=>{
                 <Link>
                 
                     <button className="hireButton" onClick={download}>
-                    <img src="./assets/hat.png" alt="hire" className="hireLogo" />
+                    <img src="./src/assets/hat.png" alt="hire" className="hireLogo" />
                     Hire Me
                     </button>
             
 
 
                 {/* <button className="hireButton" onClick={() =>{document.getElementById('contactPage').scrollIntoView({behavior:'smooth'});} }>
-                <img src="./assets/hat.png" alt="hire" className="hireLogo" />
+                <img src="./src/assets/hat.png" alt="hire" className="hireLogo" />
                 Hire Me
                 </button> */}
                
@@ -44,7 +44,7 @@ const Intro = ()=>{
            
 
 
-            <img src="./assets/profile3.jpg" alt="profile" className="bg" /> 
+            <img src="./src/assets/profile3.jpg" alt="profile" className="bg" /> 
 
 
 
