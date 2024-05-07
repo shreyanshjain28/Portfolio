@@ -8,7 +8,11 @@ import github from '../../assets/github.png';
 
 const Contact = ()=>{
 
+    
     const form = useRef(); 
+    const Service_id = 'service_l3z7ygg';
+    const Template_id = 'template_9131asx';
+    const Public_key='OSejaB6IgwDiCzgt0';
     
     const sendEmail = (e) => {
         e.preventDefault();
