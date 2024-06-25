@@ -8,7 +8,7 @@ import hat from '../../assets/hat.png';
 const Intro = () => {
 
     const download = () => {
-        const pdfUrl = "./src/assets/shreyansh_jain_resume.pdf";
+        const pdfUrl = "/shreyansh_jain_resume.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "resume.pdf";
