@@ -13,7 +13,7 @@ const Skills = () =>{
         <section id='skills'>
 
             <span className="skillTitle">What I do</span>
-            <span className="skillDesc">As a versatile professional with a passion for technology, I bring a wealth of experience in full-stack development, data analysis, and software development to every project I undertake. With proficiency in a wide array of programming languages including JavaScript, Node.js, C#/ASP.NET, SQL, Python, and C++, coupled with expertise in frameworks and technologies such as React.js, Express, and MongoDB, I possess the technical acumen to tackle complex challenges effectively. My commitment to excellence extends beyond technical skills, as I excel in communication, collaboration, and problem-solving, leveraging these strengths to drive successful project outcomes. With a solid understanding of concepts like OOPS, Agile methodologies, statistics, and project management, I am well-equipped to navigate diverse project requirements. Armed with a toolkit that includes tools like Visual Studio, Git/GitHub, Jira, and Figma, I am adept at seamlessly integrating cutting-edge technologies into innovative solutions. My dedication to continuous learning and growth is evident in my academic background, where I pursued a degree in Computer Programming from Niagara College, Toronto, refining my skills in web development, software engineering, and system security. Whether it's developing robust web applications, analyzing data insights, or providing technical support, I am committed to delivering excellence and driving tangible value for every project and team I engage with.</span>
+            <span className="skillDesc">As a dynamic full-stack developer, I bring extensive experience in developing innovative, data-driven solutions. Proficient in JavaScript/TypeScript, ReactJS, NodeJS, Python, SQL, C# and R, I excel in creating scalable and efficient web applications. <br/>  <br/> My technical expertise is complemented by strong skills in communication, collaboration, and problem-solving. With a degree in Computer Programming from Niagara College, Toronto, and hands-on experience in various projects, I am committed to continuous learning and delivering excellence in every endeavor. Whether working on frontend or backend development, I strive to integrate cutting-edge technologies and deliver high-quality, impactful solutions.</span>
 
             <div className="skillBars">
                 
@@ -29,7 +29,7 @@ const Skills = () =>{
                     <img src={js2} alt="dev" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>JavaScript Developer</h2>
-                        <p>i write scalable JavaScript programs to solve the complex problems. I have proficiency in it frameworks like React, Node-Express.</p>
+                        <p>i write scalable JavaScript and TypeScript programs to solve the complex problems. I have proficiency in it frameworks like ReactJS, NodeJS ,Express.</p>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ const Skills = () =>{
                     <img src={py} alt="dev" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Python Developer</h2>
-                        <p>I have good experience in python programing, performing data analysis using it's libraries like Pandas/Sci-kit and Matplotlib.</p>
+                        <p>I have good experience in python programing, performing data analysis and visulization using it's libraries like Pandas/Sci-kit and Matplotlib.</p>
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@ const Skills = () =>{
                     <img src={developer} alt="dev" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Tools</h2>
-                        <p>Some tools used by me are - MS suite, JIRA , Git/GitHub, SalesForce, Figma, R-studios, VMware. </p>
+                        <p>Some tools used by me are - MS Suite, Jira , Power Apps, Git/GitHub, SalesForce, Figma, R-studios, VMware. </p>
                     </div>
                 </div>
 
